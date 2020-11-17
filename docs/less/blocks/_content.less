@@ -1,0 +1,306 @@
+.content {
+  padding: 37px 0 83px;
+  background-color: #fff;
+  color: #000;
+}
+
+.content-sorting {
+  display: flex;
+  margin-bottom: 38px;
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 1200px) {
+  }
+}
+
+.content-sorting p {
+  margin-right: 48px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 22px;
+  color: #000000;
+
+  @media (min-width: 768px) {
+    font-size: 18px;
+  }
+
+  @media (min-width: 1200px) {
+  }
+}
+
+.content__goods {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  @media (min-width: 1200px) {
+    justify-content: space-between;
+  }
+}
+
+.goods__card {
+  max-width: 300px;
+  background-color: #f3f3f3;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-bottom: 27px;
+
+  @media (min-width: 420px) {
+    max-width: 360px;
+  }
+
+  @media (min-width: 768px) {
+    
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 380px;
+  }
+}
+
+.goods__card-img {
+  position: relative;
+}
+
+.like {
+  position: absolute;
+  top: 35px;
+  right: 35px;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: 0.2s all ease-in;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.discount {
+  position: absolute;
+  top: 34px;
+  left: 38px;
+  padding: 10px 18px;
+  background: #e62d2d;
+  border-radius: 10px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.card {
+  padding: 29px;
+}
+
+.goods__card-name {
+  margin-bottom: 21px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.goods__card-info {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+.info-color span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 26px;
+  border-left: 4px solid #6ebbd3;
+}
+
+.info-color {
+  width: 89px;
+  margin-right: 21px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.info-age {
+  width: 89px;
+  margin-right: 11px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.info-age span {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.info-more {
+  width: 89px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.info-more span {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.goods__card-price {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.btn {
+  display: inline-block;
+  width: 100%;
+  padding: 21px 55px;
+  background-color: #6ebbd3;
+  text-align: center;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  transition: 0.2s ease-in;
+
+  &:hover {
+    color: #6ebbd3;
+    background-color: #fff;
+  }
+}
+
+.btn-sold {
+  background-color: #1f2021;
+  cursor: default;
+  &:hover {
+    color: #fff;
+    background-color: #1f2021;
+  }
+}
+
+.btn-show {
+  text-align: center;
+}
+
+.show {
+  max-width: 200px;
+  padding: 24px 60px;
+  background-color: #fff;
+  margin: 0 auto;
+  border: 1px solid #cacaca;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+
+  &:hover {
+    border: 2px solid #000;
+    font-weight: bold;
+  }
+
+  @media (min-width: 768px) {
+    padding: 24px 129px;
+    max-width: 380px;
+  }
+
+  @media (min-width: 1200px) {
+    
+  }
+}
+
+.btn-price {
+  margin-right: 55px;
+  border: 0;
+  background-color: transparent;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+
+  & span {
+    display: none;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 18px;
+    & span {
+      display: inline;
+    }
+  }
+
+  @media (min-width: 1200px) {
+  }
+}
+
+.btn-age {
+  border: 0;
+  background-color: transparent;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+  & span {
+    display: none;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 18px;
+    & span {
+      display: inline;
+    }
+  }
+
+  @media (min-width: 1200px) {
+  }
+}

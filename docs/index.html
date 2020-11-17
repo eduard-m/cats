@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Cats</title>
+</head>
+<body>
+    <div class="scrollup" id="scrollup">
+        <i class="fa fa-angle-up"></i>
+    </div>
+    <header class="header">
+        <div class="container">
+            <div class="header-nav">
+                <div class="header-nav__logo">
+                    <a href="#"><img src="./img/logo.png" alt="Logo"></a>
+                </div>
+                <nav class="header-nav__menu">
+                <ul>
+                    <li><a href="#">Main</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Profile</a></li>
+                </ul> 
+                </nav>
+                <div class="header-nav__info">
+                    <div class="info-tel"><a href="tel:+544349000000">+544 3490 00000</a></div>
+                    <div class="info-text">Звони скорее!</div>
+                </div>
+            </div>
+            <div class="header-search">
+                Найдено 349 котов
+            </div>
+        </div>
+        <div class="opacity"></div>
+    </header>
+    <main class="content">
+        <div class="container">
+            
+            <!--//Сортировка-->
+            <div class="content-sorting">
+                <p>Сортировать по:</p>
+                <button class="btn-price" id="sort-price-asc">Цене <span><i class="fas fa-angle-down"></i></span></button>
+                <button class="btn-age">Возрасту <span><i class="fas fa-angle-down"></i></span></button>
+            </div>
+
+            <div class="content__goods">
+                <div class="goods__card" data-price="30000">
+                    <div class="goods__card-img">
+                        <img src="./img/cat3.png" alt="Cat">
+                        <img class="like" src="./img/like.svg" alt="like">
+                        <div class="discount">-40%</div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="goods__card-name">
+                            Кот полосатый
+                        </div>
+                        <div class="goods__card-info">
+                            <div class="info-color">
+                                <span></span>
+                                Коричневый окрас
+                            </div>
+                            <div class="info-age">
+                                <span>2 мес.</span> Возраст
+                            </div>
+                            <div class="info-more">
+                                <span>4</span><br>Кол-во лап
+                            </div>
+                        </div>
+                        <div class="goods__card-price">
+                            30 000 руб.
+                        </div>
+                    </div>
+                        <a class="btn" href="#">Купить</a>
+                </div>
+
+                 <div class="goods__card" data-price="40000">
+                    <div class="goods__card-img">
+                        <img src="./img/cat2.png" alt="Cat">
+                        <img class="like" src="./img/like.svg" alt="like">
+                        <!-- <div class="discount">-40%</div> -->
+                    </div>
+                    
+                    <div class="card">
+                        <div class="goods__card-name">
+                            Кот полосатый
+                        </div>
+                        <div class="goods__card-info">
+                            <div class="info-color">
+                                <span></span>
+                                Коричневый окрас
+                            </div>
+                            <div class="info-age">
+                                <span>2 мес.</span> Возраст
+                            </div>
+                            <div class="info-more">
+                                <span>4</span><br>Кол-во лап
+                            </div>
+                        </div>
+                        <div class="goods__card-price">
+                            40 000 руб.
+                        </div>
+                    </div>
+                        <a class="btn btn-sold" href="#">Продан</a>
+                </div>
+
+                <div class="goods__card" data-price="20000">
+                    <div class="goods__card-img">
+                        <img src="./img/cat1.png" alt="Cat">
+                        <img class="like" src="./img/like.svg" alt="like">
+                        <!-- <div class="discount">-40%</div> -->
+                    </div>
+                    
+                    <div class="card">
+                        <div class="goods__card-name">
+                            Кот полосатый
+                        </div>
+                        <div class="goods__card-info">
+                            <div class="info-color">
+                                <span></span>
+                                Коричневый окрас
+                            </div>
+                            <div class="info-age">
+                                <span>2 мес.</span> Возраст
+                            </div>
+                            <div class="info-more">
+                                <span>4</span><br>Кол-во лап
+                            </div>
+                        </div>
+                        <div class="goods__card-price">
+                            20 000 руб.
+                        </div>
+                    </div>
+                        <a class="btn" href="#">Купить</a>
+                </div>
+
+                <div class="goods__card" data-price="25000">
+                    <div class="goods__card-img">
+                        <img src="./img/cat3.png" alt="Cat">
+                        <img class="like" src="./img/like.svg" alt="like">
+                        <!-- <div class="discount">-40%</div> -->
+                    </div>
+                    
+                    <div class="card">
+                        <div class="goods__card-name">
+                            Кот полосатый
+                        </div>
+                        <div class="goods__card-info">
+                            <div class="info-color">
+                                <span></span>
+                                Коричневый окрас
+                            </div>
+                            <div class="info-age">
+                                <span>2 мес.</span> Возраст
+                            </div>
+                            <div class="info-more">
+                                <span>4</span><br>Кол-во лап
+                            </div>
+                        </div>
+                        <div class="goods__card-price">
+                            25 000 руб.
+                        </div>
+                    </div>
+                        <a class="btn" href="#">Купить</a>
+                </div>
+
+                <div class="goods__card" data-price="30000">
+                    <div class="goods__card-img">
+                        <img src="./img/cat1.png" alt="Cat">
+                        <img class="like" src="./img/like.svg" alt="like">
+                        <div class="discount">-40%</div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="goods__card-name">
+                            Кот полосатый
+                        </div>
+                        <div class="goods__card-info">
+                            <div class="info-color">
+                                <span></span>
+                                Коричневый окрас
+                            </div>
+                            <div class="info-age">
+                                <span>2 мес.</span> Возраст
+                            </div>
+                            <div class="info-more">
+                                <span>4</span><br>Кол-во лап
+                            </div>
+                        </div>
+                        <div class="goods__card-price">
+                            30 000 руб.
+                        </div>
+                    </div>
+                        <a class="btn" href="#">Купить</a>
+                </div>
+
+                <div class="goods__card" data-price="10000">
+                    <div class="goods__card-img">
+                        <img src="./img/cat2.png" alt="Cat">
+                        <img class="like" src="./img/like.svg" alt="like">
+                        <!-- <div class="discount">-40%</div> -->
+                    </div>
+                    
+                    <div class="card">
+                        <div class="goods__card-name">
+                            Кот полосатый
+                        </div>
+                        <div class="goods__card-info">
+                            <div class="info-color">
+                                <span></span>
+                                Коричневый окрас
+                            </div>
+                            <div class="info-age">
+                                <span>2 мес.</span> Возраст
+                            </div>
+                            <div class="info-more">
+                                <span>4</span><br>Кол-во лап
+                            </div>
+                        </div>
+                        <div class="goods__card-price">
+                            10 000 руб.
+                        </div>
+                    </div>
+                        <a class="btn btn-sold" href="#">Продан</a>
+                </div>
+                <div class="goods__card" style="display: none;" data-price="25000">
+                    <div class="goods__card-img">
+                        <img src="./img/cat3.png" alt="Cat">
+                        <img class="like" src="./img/like.svg" alt="like">
+                        <!-- <div class="discount">-40%</div> -->
+                    </div>
+                    
+                    <div class="card">
+                        <div class="goods__card-name">
+                            Кот полосатый
+                        </div>
+                        <div class="goods__card-info">
+                            <div class="info-color">
+                                <span></span>
+                                Коричневый окрас
+                            </div>
+                            <div class="info-age">
+                                <span>2 мес.</span> Возраст
+                            </div>
+                            <div class="info-more">
+                                <span>4</span><br>Кол-во лап
+                            </div>
+                        </div>
+                        <div class="goods__card-price">
+                            25 000 руб.
+                        </div>
+                    </div>
+                        <a class="btn" href="#">Купить</a>
+                </div>
+
+                <div class="goods__card" style="display: none;" data-price="30000">
+                    <div class="goods__card-img">
+                        <img src="./img/cat1.png" alt="Cat">
+                        <img class="like" src="./img/like.svg" alt="like">
+                        <div class="discount">-40%</div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="goods__card-name">
+                            Кот полосатый
+                        </div>
+                        <div class="goods__card-info">
+                            <div class="info-color">
+                                <span></span>
+                                Коричневый окрас
+                            </div>
+                            <div class="info-age">
+                                <span>2 мес.</span> Возраст
+                            </div>
+                            <div class="info-more">
+                                <span>4</span><br>Кол-во лап
+                            </div>
+                        </div>
+                        <div class="goods__card-price">
+                            30 000 руб.
+                        </div>
+                    </div>
+                        <a class="btn" href="#">Купить</a>
+                </div>
+
+                <div class="goods__card" style="display: none;" data-price="10000">
+                    <div class="goods__card-img">
+                        <img src="./img/cat2.png" alt="Cat">
+                        <img class="like" src="./img/like.svg" alt="like">
+                        <!-- <div class="discount">-40%</div> -->
+                    </div>
+                    
+                    <div class="card">
+                        <div class="goods__card-name">
+                            Кот полосатый
+                        </div>
+                        <div class="goods__card-info">
+                            <div class="info-color">
+                                <span></span>
+                                Коричневый окрас
+                            </div>
+                            <div class="info-age">
+                                <span>2 мес.</span> Возраст
+                            </div>
+                            <div class="info-more">
+                                <span>4</span><br>Кол-во лап
+                            </div>
+                        </div>
+                        <div class="goods__card-price">
+                            10 000 руб.
+                        </div>
+                    </div>
+                        <a class="btn btn-sold" href="#">Продан</a>
+                </div>
+            </div>
+            <div class="btn-show">
+                <button class="show">Показать еще</button>
+            </div>
+        </div>
+    </main>
+
+    <div class="container">
+        <footer class="footer">
+            <div class="footer__left-col">
+                <div class="left-col__title">
+                    Успей купить!
+                </div>
+                <div class="left-col__text">
+                    Подпишись и успей словить все акции
+                </div>
+            </div>
+
+            <div class="footer__right-col">
+                <div class="right-col__wrap">
+                    <div class="right-col__email">
+                        <input type="email" placeholder="Email">
+                    </div>
+                        <a href="#" class="right-col__btn">
+                            Подписаться
+                        </a>
+                </div>
+                <div class="right-col__check">
+                    <input id="1" type="checkbox">
+                    <label for="1" class="right-col__sub">
+                        Подписаться на новости
+                    </label>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+</body>
+<script defer src="js.js"></script>
+</html>
